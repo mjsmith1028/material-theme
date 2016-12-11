@@ -15,6 +15,14 @@
       "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
     }
   },
+  "Material Theme - Distinguished":
+  {
+    "Preferences":
+    {
+      "theme": "Material-Theme-Distinguished.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Distinguished.tmTheme",
+    }
+  },
   "Material Theme - Lighter":
   {
     "Preferences":

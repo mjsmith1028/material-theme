@@ -14,6 +14,7 @@ THEMES = [
   'Material-Theme',
   'Material-Theme-Palenight',
   'Material-Theme-Darker',
+  'Material-Theme-Distinguished',
   'Material-Theme-Lighter'
 ]
 
