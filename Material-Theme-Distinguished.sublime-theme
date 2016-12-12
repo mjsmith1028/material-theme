@@ -1,4 +1,4 @@
-// > DARKER
+// > DISTINGUISHED
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // The most epic theme for Sublime Text 3
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -268,6 +268,7 @@
       "layer0.tint": [8, 8, 8],
       "tint_index": 1,
       "layer0.inner_margin": [2, 6],
+      "layer0.opacity": 1.0,
       "content_margin": [6, 0, 8, 0],
       "tab_overlap": 0,
       "tab_width": 180,
@@ -358,7 +359,6 @@
       "layer2.opacity": { "target": 0.6, "speed": 5.0, "interpolation": "smoothstep" },
       "layer3.opacity": 0.0
     },
-
   
       // Tab Labels
   
@@ -378,14 +378,6 @@
       "parents": [{"class": "tab_control", "attributes": ["selected"]}],
       "shadow_color": [255, 255, 255, 0],
       "shadow_offset": [0, 0]
-    },
-
-    // Dirty Tab
-    {
-      "class": "tab_label",
-      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-      // mike fork
-      "fg": [128, 203, 196]
     },
   
     {
@@ -439,7 +431,7 @@
       "layer0.opacity": 0, // Close Icon
       "layer1.opacity": 1, // Close Icon Hover
     },
-      // Dirty tab
+        // Dirty tab
     {
       "class": "tab_close_button",
       "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
@@ -1592,6 +1584,14 @@
       "settings": ["material_theme_accent_teal"],
       "layer0.texture": "Material Theme/assets/accent-teal/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_teal"],
+      "fg": [128, 203, 196]
+    },
   
     {
       "class": "sidebar_label",
@@ -1886,7 +1886,7 @@
       "layer1.texture": "Material Theme/assets/accent-teal/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
-  
+
   // Lime Accent Color
   // ===========================================================================
   
@@ -1971,6 +1971,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_lime"],
       "layer0.texture": "Material Theme/assets/accent-lime/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_lime"],
+      "fg": [124, 179, 66]
     },
   
     {
@@ -2352,6 +2360,14 @@
       "settings": ["material_theme_accent_purple"],
       "layer0.texture": "Material Theme/assets/accent-purple/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_purple"],
+      "fg": [171, 71, 188]
+    },
   
     {
       "class": "sidebar_label",
@@ -2731,6 +2747,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_red"],
       "layer0.texture": "Material Theme/assets/accent-red/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_red"],
+      "fg": [229, 115, 115]
     },
   
     {
@@ -3112,6 +3136,14 @@
       "settings": ["material_theme_accent_orange"],
       "layer0.texture": "Material Theme/assets/accent-orange/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_orange"],
+      "fg": [255, 112, 66]
+    },
   
     {
       "class": "sidebar_label",
@@ -3491,6 +3523,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_yellow"],
       "layer0.texture": "Material Theme/assets/accent-yellow/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_yellow"],
+      "fg": [255, 160, 0]
     },
   
     {
@@ -3872,6 +3912,14 @@
       "settings": ["material_theme_accent_indigo"],
       "layer0.texture": "Material Theme/assets/accent-indigo/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_indigo"],
+      "fg": [92, 107, 192]
+    },
   
     {
       "class": "sidebar_label",
@@ -4251,6 +4299,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_pink"],
       "layer0.texture": "Material Theme/assets/accent-pink/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_pink"],
+      "fg": [255, 64, 129]
     },
   
     {
@@ -4632,6 +4688,14 @@
       "settings": ["material_theme_accent_blue"],
       "layer0.texture": "Material Theme/assets/accent-blue/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_blue"],
+      "fg": [41, 121, 255]
+    },
   
     {
       "class": "sidebar_label",
@@ -5011,6 +5075,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_cyan"],
       "layer0.texture": "Material Theme/assets/accent-cyan/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_cyan"],
+      "fg": [0, 188, 212]
     },
   
     {
@@ -5392,6 +5464,14 @@
       "settings": ["material_theme_accent_bright-teal"],
       "layer0.texture": "Material Theme/assets/accent-bright-teal/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_bright-teal"],
+      "fg": [100, 255, 218]
+    },
   
     {
       "class": "sidebar_label",
@@ -5771,6 +5851,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_acid-lime"],
       "layer0.texture": "Material Theme/assets/accent-acid-lime/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_acid-lime"],
+      "fg": [198, 255, 0]
     },
   
     {
@@ -6152,6 +6240,14 @@
       "settings": ["material_theme_accent_graphite"],
       "layer0.texture": "Material Theme/assets/accent-graphite/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_graphite"],
+      "fg": [97, 97, 97]
+    },
   
     {
       "class": "sidebar_label",
@@ -6531,6 +6627,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_brba"],
       "layer0.texture": "Material Theme/assets/accent-brba/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_brba"],
+      "fg": [56, 142, 60]
     },
   
     {
@@ -6912,6 +7016,14 @@
       "settings": ["material_theme_accent_sky"],
       "layer0.texture": "Material Theme/assets/accent-sky/dirty_icon--hover.png",
     },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_sky"],
+      "fg": [132, 255, 255]
+    },
   
     {
       "class": "sidebar_label",
@@ -7291,6 +7403,14 @@
       "attributes": ["dirty"],
       "settings": ["material_theme_accent_tomato"],
       "layer0.texture": "Material Theme/assets/accent-tomato/dirty_icon--hover.png",
+    },
+
+      // Dirty tab accent color
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+      "settings": ["material_theme_accent_tomato"],
+      "fg": [244, 67, 54]
     },
   
     {
