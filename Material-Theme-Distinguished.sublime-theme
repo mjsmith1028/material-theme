@@ -1110,11 +1110,10 @@
      {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [128, 203, 196],
         "font.bold": true,
         "font.size": 14
     },
-  
+
       // Text field labels
   
     {
@@ -1589,7 +1588,6 @@
     {
       "class": "tab_label",
       "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-      "settings": ["material_theme_accent_teal"],
       "fg": [128, 203, 196]
     },
   
@@ -1885,6 +1883,13 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_teal"],
       "layer1.texture": "Material Theme/assets/accent-teal/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+    
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [128, 203, 196]
     },
 
   // Lime Accent Color
@@ -2275,6 +2280,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [124, 179, 66],
+        "settings": ["material_theme_accent_lime"]
+    },
+
   // Purple Accent Color
   // ===========================================================================
   
@@ -2663,6 +2676,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [171, 71, 188],
+        "settings": ["material_theme_accent_purple"]
+    },
+
   // Red Accent Color
   // ===========================================================================
   
@@ -3051,6 +3072,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [229, 115, 115],
+        "settings": ["material_theme_accent_red"]
+    },
+
   // Orange Accent Color
   // ===========================================================================
   
@@ -3439,6 +3468,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [255, 112, 66],
+        "settings": ["material_theme_accent_orange"]
+    },
+
   // Yellow Accent Color
   // ===========================================================================
   
@@ -3827,6 +3864,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [255, 160, 0],
+        "settings": ["material_theme_accent_yellow"]
+    },
+
   // Indigo Accent Color
   // ===========================================================================
   
@@ -4215,6 +4260,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [92, 107, 192],
+        "settings": ["material_theme_accent_indigo"]
+    },
+
   // Pink Accent Color
   // ===========================================================================
   
@@ -4603,6 +4656,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [255, 64, 129],
+        "settings": ["material_theme_accent_pink"]
+    },
+
   // Blue Accent Color
   // ===========================================================================
   
@@ -4991,6 +5052,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [41, 121, 255],
+        "settings": ["material_theme_accent_blue"]
+    },
+
   // Cyan Accent Color
   // ===========================================================================
   
@@ -5379,6 +5448,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [0, 188, 212],
+        "settings": ["material_theme_accent_cyan"]
+    },
+
   // Bright Teal Accent Color
   // ===========================================================================
   
@@ -5767,6 +5844,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [100, 255, 218],
+        "settings": ["material_theme_accent_bright-teal"]
+    },
+
   // Acid Lime Accent Color
   // ===========================================================================
   
@@ -6155,6 +6240,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [198, 255, 0],
+        "settings": ["material_theme_accent_acid-lime"]
+    },
+
   // Graphite Accent Color
   // ===========================================================================
   
@@ -6543,6 +6636,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [97, 97, 97],
+        "settings": ["material_theme_accent_graphite"]
+    },
+
   // Breaking Bad Accent Color
   // ===========================================================================
   
@@ -6931,6 +7032,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [56, 142, 60],
+        "settings": ["material_theme_accent_brba"]
+    },
+
   // Sky Accent Color
   // ===========================================================================
   
@@ -7319,6 +7428,14 @@
       "layer1.opacity": 0.8
     },
   
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [132, 255, 255],
+        "settings": ["material_theme_accent_sky"]
+    },
+
   // Tomato Accent Color
   // ===========================================================================
   
@@ -7597,6 +7714,14 @@
       "class": "dropdown_button_control",
       "settings": ["material_theme_accent_tomato"],
       "layer1.texture": "Material Theme/assets/accent-tomato/overflow_menu--hover.png",
+    },
+
+      // Status bar labels accent color
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [244, 67, 54],
+        "settings": ["material_theme_accent_tomato"]
     },
   
     // Buttons icons settings
