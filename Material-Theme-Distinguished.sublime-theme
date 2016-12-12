@@ -496,7 +496,7 @@
       "layer0.inner_margin": 0,
       "layer1.texture": "Material Theme/assets/commons/arrow_right--hover.png",
       "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
-      "layer1.inner_margin": 0,
+      "layer1.inner_margin": 0
     },
   
     {
@@ -534,7 +534,7 @@
       "content_margin": [0, 12, 0, 0],
       "layer0.tint": [0,0,0],
       "layer0.opacity": 1.0,
-      "layer1.tint": [50,50,50],
+      "layer1.tint": [8,8,8],
       "layer1.opacity": 1.0
     },
     {
@@ -545,7 +545,7 @@
       "indent_top_level": false,
       "layer0.tint": [0,0,0],
       "layer0.opacity": 1.0,
-      "layer1.tint": [50,50,50],
+      "layer1.tint": [8,8,8],
       "layer1.opacity": 1.0
     },
   
